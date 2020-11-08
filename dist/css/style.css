@@ -2243,7 +2243,7 @@ nav#dot-nav a.active:before {
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 100px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   height: 100px;
   width: 100%;
@@ -2599,14 +2599,6 @@ nav#dot-nav a.active:before {
     margin-top: 60px;
   }
 
-  .card-slider .slick-dots {
-    display: none;
-  }
-
-  .card-slider .slick-arrow {
-    display: none;
-  }
-
   .news-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2766,10 +2758,6 @@ nav#dot-nav a.active:before {
     margin-top: 40px;
   }
 
-  .news-blocks .slick-arrow {
-    display: none;
-  }
-
   .parthners-title p:nth-child(2) {
     font-size: 40px;
     top: 14px;
@@ -2795,6 +2783,17 @@ nav#dot-nav a.active:before {
 
   .parthners-logo {
     margin-top: 0;
+  }
+
+  .parthners-logo .slick-arrow {
+    top: 180px;
+  }
+
+  .parthners-logo .slick-arrow.slick-prev {
+    background: url(../img/arrow.png) no-repeat;
+    background-size: cover;
+    border: 0;
+    left: 0px;
   }
 
   .footer p {

@@ -310,7 +310,15 @@ $(document).ready(function(){
     $('.card-slider').slick({
         dots: true,
         swipe: true,
-        touchMove: true
+        touchMove: true,
+        responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        dots: false,
+        arrows: false
+      }
+    }]
     });
 });
 
@@ -321,7 +329,15 @@ $('.news-blocks').slick({
   autoplaySpeed: 2000,
   variableWidth: true,
   swipe: true,
-    touchMove: true
+    touchMove: true,
+    responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        dots: false,
+        arrows: false
+      }
+    }]
 });
 
 
@@ -331,6 +347,7 @@ $('.parthners-logo').slick({
   variableWidth: true,
     swipe: true,
     touchMove: true
+   
 });
 
 
