@@ -1,0 +1,14 @@
+.textPage__inner {
+	margin: 100px 0;
+}
+
+.textPage__title {
+	margin-bottom: 50px;
+}
+
+.textPage__someText {
+	font-size: 18px;
+	line-height: 30px;
+	color: #4F4F4F;
+	margin: 20px 0;
+}
